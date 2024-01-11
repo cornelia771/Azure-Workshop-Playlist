@@ -18,11 +18,11 @@ Go to this site and follow the steps until "Clean up the resources"
 1. Go to https://developer.spotify.com/
 2. Log in with your Spotify account
 3. Go to Dashboar, click on Create an app button and enter the following:
-- App Name: My App
-- App Description: This is my first Spotify app
-- Website: The local host for your Azure function. Find it by running your Azure Funciton: Run -> Start Debugging. In the terminal you can find the correct URL
-- Ridirect URI: Equal as website
-- Which API/SDKs are you planning to use : Web API
+    - App Name: My App
+    - App Description: This is my first Spotify app
+    - Website: The local host for your Azure function. Find it by running your Azure Funciton: Run -> Start Debugging. In the terminal you can find the correct URL
+    - Ridirect URI: Equal as website
+    - Which API/SDKs are you planning to use : Web API
 4. Save
 5. Dashboard => Click on your app=>  Settings 
 In settings you can find the Client ID and Client secret you will need to connect you Azure function to Spotify. 
@@ -41,4 +41,4 @@ In settings you can find the Client ID and Client secret you will need to connec
 1. Click on the Azure icon on the left sidemenu
 2. Click on the Azure Function icon, click on Deploy to Function App
 3. Choose your subscription and the correct resources and functions.  
-4. Click on deploy
+4. Click on Deploy
