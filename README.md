@@ -12,6 +12,7 @@
 
 # Getting started
 Go to this site and follow the steps until "Clean up the resources"
+https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python?pivots=python-mode-decorators
 
 
 # Getting started with Spotify
