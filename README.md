@@ -8,6 +8,12 @@
 - The Azure function extention for Visual Studio Code, 1.8.1 or later
 - The Azurite Function extention
 - Spotify account (free or premium)
+- installed spotipy and azure-functions:
+
+``` 
+$ pip install spotipy
+$ pip install azure-functions
+```
 
 
 # Getting started
@@ -21,8 +27,8 @@ https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs
 3. Go to Dashboar, click on Create an app button and enter the following:
     - App Name: My App
     - App Description: This is my first Spotify app
-    - Website: The local host for your Azure function. Find it by running your Azure Funciton: Run -> Start Debugging. In the terminal you can find the correct URL
-    - Ridirect URI: Equal as website
+    - Website: The local host for your Azure function. Find it by running your Azure Funciton: Run -> Start Debugging. In the terminal you can find the correct URL. Also available on your azure functions dashboard
+    - Ridirect URI: Equal as website e.g `https://<YOUR_WEBISTE_NAME>.azurewebsites.net/api/azure_function_guide`
     - Which API/SDKs are you planning to use : Web API
 4. Save
 5. Dashboard => Click on your app=>  Settings 
